@@ -12,8 +12,8 @@ Welcome to the official public distribution repository for **SK AI**, an autonom
 
 | Distribution | File | Size | Description |
 | :--- | :--- | :--- | :--- |
-| **Windows Installer** | [`SK AI-Setup-1.0.52.exe`](https://github.com/sumitkausik-oss/sk-ai-releases/releases/download/v1.0.52/SK.AI-Setup-1.0.52.exe) | ~517 MB | Complete Windows 64-bit Setup Installer |
-| **Portable ZIP** | [`SK AI-1.0.52-win64.zip`](https://github.com/sumitkausik-oss/sk-ai-releases/releases/download/v1.0.52/SK.AI-1.0.52-win64.zip) | ~881 MB | Standalone portable archive (no installation required) |
+| **Windows Installer** | [`SK.AI-Setup-1.0.52.exe`](https://github.com/sumitkausik-oss/sk-ai-releases/releases/download/v1.0.52/SK.AI-Setup-1.0.52.exe) | 517.55 MB | Complete Windows 64-bit Setup Installer |
+| **Portable ZIP** | [`SK.AI-1.0.52-win64.zip`](https://github.com/sumitkausik-oss/sk-ai-releases/releases/download/v1.0.52/SK.AI-1.0.52-win64.zip) | 881.00 MB | Standalone portable archive (no installation required) |
 
 ---
 
@@ -22,13 +22,13 @@ Welcome to the official public distribution repository for **SK AI**, an autonom
 You can verify the authenticity of the downloaded binaries using the SHA-512 hashes below:
 
 ```
-8f208f7d82a253d5539545bc297c651ba8bcdcae41b21851d1e364d4ffea8ef0b6c855acff506ace00bacfff5f0f704f5527b6cfdea5bbc81b36c35486f149dd  SK AI-Setup-1.0.52.exe
-9cecfe7ef105dc204644eccf8227a3ba7d9244178862fdf196d91c8b5ba67b41896aacd52ad9c9a198573c53c5c28a3ca9a84d401caaa5a7ad546493b205bf18  SK AI-1.0.52-win64.zip
+8f208f7d82a253d5539545bc297c651ba8bcdcae41b21851d1e364d4ffea8ef0b6c855acff506ace00bacfff5f0f704f5527b6cfdea5bbc81b36c35486f149dd  SK.AI-Setup-1.0.52.exe
+9cecfe7ef105dc204644eccf8227a3ba7d9244178862fdf196d91c8b5ba67b41896aacd52ad9c9a198573c53c5c28a3ca9a84d401caaa5a7ad546493b205bf18  SK.AI-1.0.52-win64.zip
 ```
 
 To verify on Windows PowerShell:
 ```powershell
-Get-FileHash -Algorithm SHA512 "SK AI-Setup-1.0.52.exe"
+Get-FileHash -Algorithm SHA512 "SK.AI-Setup-1.0.52.exe"
 ```
 
 ---
