@@ -1,0 +1,5 @@
+Copyright (c) 2026 SK AI. All Rights Reserved.
+Developer & Creator: Sumeet Kumar
+
+Permission is hereby granted to download and use SK AI binaries for authorized personal and enterprise applications.
+Redistribution of modified binaries or extraction of private intellectual property is strictly prohibited without prior written authorization from the creator, Sumeet Kumar.

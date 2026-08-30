@@ -1,0 +1,4 @@
+owner: sumitkausik-oss
+repo: sk-ai-releases
+provider: github
+updaterCacheDirName: sk-ai-updater

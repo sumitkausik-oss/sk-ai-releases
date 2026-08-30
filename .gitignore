@@ -1,0 +1,9 @@
+# Release repository gitignore
+# Binary assets are distributed via GitHub Releases
+*.exe
+*.zip
+*.7z
+*.asar
+node_modules/
+.DS_Store
+Thumbs.db
