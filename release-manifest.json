@@ -1,0 +1,23 @@
+{
+  "productName": "SK-AI",
+  "version": "1.0.53",
+  "releaseDate": "2026-08-30",
+  "creator": "Sumeet Kumar",
+  "license": "Freeware (Free for all users by Sumeet Kumar)",
+  "architecture": "x64",
+  "platform": "windows",
+  "executable": "SK AI.exe",
+  "installer": "SK-AI-Setup-1.0.52.exe",
+  "updateChannel": "latest",
+  "services": {
+    "desktopShell": "Electron 34+ / Node.js",
+    "frontend": "React 19 / Vite",
+    "agentTown": "Next.js (Port 3010)",
+    "hermesEngine": "Python 3.11 Embedded (Port 9119)",
+    "cdpShim": "Chromium CDP (Port 9222)",
+    "voiceEngine": "Python SpeechRecognition Background Service"
+  },
+  "releaseTag": "v1.0.53",
+  "installerFilename": "SK.AI-Setup-1.0.53.exe",
+  "portableFilename": "SK.AI-1.0.53-win64.zip"
+}

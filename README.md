@@ -1,45 +1,60 @@
-# SK AI — Official Public Releases & Binary Channel
+# SK-AI — Advanced AI Desktop Assistant
 
-[![Release](https://img.shields.io/badge/Release-v1.0.53-blue.svg)](https://github.com/sumitkausik-oss/sk-ai-releases/releases/tag/v1.0.53)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-brightgreen.svg)]()
-[![Creator](https://img.shields.io/badge/Creator-Sumeet%20Kumar-orange.svg)]()
-
-Welcome to the official public distribution repository for **SK AI**, an autonomous AI desktop application created by **Sumeet Kumar**.
+**SK-AI** is a desktop AI system built by **Sumeet Kumar**. It integrates advanced LLM reasoning, voice synthesis, autonomous browser automation, Python runtime execution, desktop accessibility assistance, and local multi-agent collaboration.
 
 ---
 
-## 📥 Downloads (v1.0.53)
+## 🌟 Key Features
 
-| Distribution | File | Size | Description |
+* **Universal Assistant**: Multi-modal chat, code generation, file analysis, system automation, and intelligent Butler persona.
+* **Autonomous Browser Control**: Built-in Chromium automation via Chrome DevTools Protocol (CDP) for web scraping, navigation, and automated interactions.
+* **Hermes Multi-Agent Runtime**: Embedded Python runtime environment enabling local tool calling, web search, code interpretation, and persistent memory.
+* **Voice & Wake-Word Detection**: Always-on background wake-word engine ("SK-AI", "Sky AI") with voice feedback.
+* **Freeware Edition**: 100% unlocked offline architecture with no remote licensing or token server dependencies.
+* **AgentTown Workspace**: Embedded multi-agent simulation canvas and interactive companion interfaces.
+
+---
+
+## 🚀 Architecture & Local Services
+
+| Service | Technology | Port / Endpoint | Description |
 | :--- | :--- | :--- | :--- |
-| **Windows Installer** | [`SK.AI-Setup-1.0.53.exe`](https://github.com/sumitkausik-oss/sk-ai-releases/releases/download/v1.0.53/SK.AI-Setup-1.0.53.exe) | 517.55 MB | Complete Windows 64-bit Setup Installer |
-| **Portable ZIP** | [`SK.AI-1.0.53-win64.zip`](https://github.com/sumitkausik-oss/sk-ai-releases/releases/download/v1.0.53/SK.AI-1.0.53-win64.zip) | 881.00 MB | Standalone portable archive (no installation required) |
+| **Desktop Shell** | Electron / Node.js | Local IPC | Main window management, IPC handlers, system integrations |
+| **Frontend UI** | React 19 / Vite / Tailwind | Local Window / PWA | Main user dashboard, chat, settings, and widget controls |
+| **AgentTown Server**| Next.js Standalone Bundle | `http://127.0.0.1:3010` | Embedded agent town simulation and API routes |
+| **Hermes Runtime** | Python 3.11 Embedded | `http://127.0.0.1:9119` | Local tool-calling, skills execution, and memory storage |
+| **CDP Shim** | Node.js HTTP/WS | `http://127.0.0.1:9222` | Browser automation bridge for Chromium |
+| **Voice Engine** | Python SpeechRecognition | Background Child Process| Background wake-word listener |
 
 ---
 
-## 🔒 Verification & Integrity (SHA512)
+## 📂 Installation & Running
 
-You can verify the authenticity of the downloaded binaries using the SHA-512 hashes below:
+### Option 1: Standalone Portable Release
+1. Extract `release/application/` to any folder (e.g. `C:\Program Files\SK-AI` or `C:\Users\<User>\AppData\Local\Programs\SK-AI`).
+2. Run `SK AI.exe` (or `SK-AI.exe`).
 
-```
-8f208f7d82a253d5539545bc297c651ba8bcdcae41b21851d1e364d4ffea8ef0b6c855acff506ace00bacfff5f0f704f5527b6cfdea5bbc81b36c35486f149dd  SK.AI-Setup-1.0.53.exe
-9cecfe7ef105dc204644eccf8227a3ba7d9244178862fdf196d91c8b5ba67b41896aacd52ad9c9a198573c53c5c28a3ca9a84d401caaa5a7ad546493b205bf18  SK.AI-1.0.53-win64.zip
-```
-
-To verify on Windows PowerShell:
-```powershell
-Get-FileHash -Algorithm SHA512 "SK.AI-Setup-1.0.53.exe"
-```
+### Option 2: Windows Installer
+1. Run `SK-AI-Setup-1.0.52.exe`.
+2. Follow standard setup instructions. The application will install to your local app directory and create desktop and start menu shortcuts.
 
 ---
 
-## 🚀 System Requirements
-- **OS**: Windows 10 / Windows 11 (64-bit)
-- **RAM**: 8 GB minimum (16 GB recommended)
-- **Storage**: 2 GB free disk space
+## ⚙️ Configuration & Environment
+
+Environment variables can be set to override local subservice ports:
+
+* `SK_AI_AGENTTOWN_PORT`: Port for AgentTown server (Default: `3010`)
+* `SK_AI_HERMES_PORT`: Port for Hermes runtime engine (Default: `9119`)
+* `SK_AI_CDP_SHIM_PORT`: Port for Chromium DevTools Protocol shim (Default: `9222`)
+* `SK_AI_HERMES_EXE`: Custom executable path for Hermes Python runtime
 
 ---
 
-## 📜 License & Ownership
-Copyright © 2026 **SK AI**. All Rights Reserved.  
-**Developer & Creator**: Sumeet Kumar
+## 👤 Author & Credits
+
+* **Product**: SK-AI
+* **Creator / Architect**: Sumeet Kumar
+* **Edition**: Standalone Freeware
+* **License**: Freeware (Free for all users by Sumeet Kumar)
+* **Copyright**: &copy; 2026 Sumeet Kumar. All rights reserved.

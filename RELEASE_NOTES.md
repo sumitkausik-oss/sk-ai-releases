@@ -1,23 +1,41 @@
-# SK AI — Release Notes v1.0.53
+# SK-AI — Release Notes v1.0.53
 
 **Release Version**: `1.0.53`  
-**Product**: `SK AI`  
+**Product**: `SK-AI`  
 **Creator & Owner**: `Sumeet Kumar`  
-**Platform**: `Windows x64`  
+**Platform**: `Windows x64 (Freeware Offline AI Desktop OS)`  
+
+---
 
 ## 🚀 What's New in v1.0.53
 
-### 🌟 Onboarding Flow Refinement
-- **Streamlined Onboarding**: Removed payment step from onboarding state machine. Flow is now: `BOOT -> SK AI INTRO -> NAME -> AGE -> MOBILE (+91 INDIA) -> GOOGLE AUTH -> MAIN APP`.
-- **India (+91) Default**: Phone onboarding country selector defaults to India (+91).
-- **Direct Google Authentication**: Authenticate directly with Google OAuth without onboarding payment gates.
+### 🌟 Futuristic 3D Visual Identity & Logo
+- Integrated official **3D Isometric Futuristic SK-AI Logo Emblem** across the application window, installer, taskbar, desktop executable, and PWA companion interfaces.
+- Embedded multi-resolution Windows Icon Groups (`RT_GROUP_ICON`) inside all standalone executables.
 
-### 🎨 Authoritative Visual Branding & Icons
-- Updated high-resolution authoritative SK AI logo and multi-resolution application icons across all packaging and desktop targets.
-- Preserved high-definition startup intro and guide video presentation.
+### 🎬 Startup Video Initialization
+- Seamlessly wired `sk ai start video.mp4` intro presentation into application initialization with zero-delay fallback and skip controls.
 
-### 🔒 SHA512 Integrity Verification
+### ⚡ Autonomous AI Runtime & Localhost Architecture
+- **AgentTown Engine**: Embedded Next.js dashboard bound to `127.0.0.1:3010`.
+- **Hermes AI Core**: Embedded Python 3.11 intelligence runtime on `127.0.0.1:9119`.
+- **CDP Automation Shim**: Headless browser automation bridge on `127.0.0.1:9222`.
+- **Local Authentication Gateway**: OAuth bridge bound strictly to `127.0.0.1:18789`.
+
+### 🛡️ Freeware & Security Guarantee
+- 100% offline freeware execution with zero remote lockouts or telemetry.
+- Zero secret material or private developer credentials in public release channels.
+
+---
+
+## 🔒 Verification & Integrity (SHA512)
+
 ```
-8f208f7d82a253d5539545bc297c651ba8bcdcae41b21851d1e364d4ffea8ef0b6c855acff506ace00bacfff5f0f704f5527b6cfdea5bbc81b36c35486f149dd  SK.AI-Setup-1.0.53.exe
-9cecfe7ef105dc204644eccf8227a3ba7d9244178862fdf196d91c8b5ba67b41896aacd52ad9c9a198573c53c5c28a3ca9a84d401caaa5a7ad546493b205bf18  SK.AI-1.0.53-win64.zip
+1eed68737144c63ece70558a3e86c4e289f6fbfc6471e1cfade2d47a0d31358d131b4a75f2ddc0770685d99fc15b2b5552cad2f2d5fb592ecb083a645663e865  SK.AI-Setup-1.0.53.exe
 ```
+
+---
+
+## 📜 Ownership & License
+Copyright © 2026 **SK-AI**. All Rights Reserved.  
+**Creator & Lead Architect**: Sumeet Kumar
